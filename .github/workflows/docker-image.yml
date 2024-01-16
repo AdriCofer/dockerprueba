@@ -23,4 +23,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: AdriCofer/dockerprueba:latest, AdriCofer/dockerprueba:${{ github.sha }}
+          tags: adricofer/dockerprueba:latest, adricofer/dockerprueba:${{ github.sha }}
